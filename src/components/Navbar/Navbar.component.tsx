@@ -1,6 +1,5 @@
 import React from "react";
 import { ReactElement } from "react";
-import {FaBars} from 'react-icons/fa'
 
 import { Component } from "@dmd/types";
 import { USER_AVATAR_URL } from "../../constants";
@@ -20,7 +19,6 @@ const Navbar:Component<Props> = ({visible, onPressBurger}):ReactElement=>(
         href="#" 
         onClick={onPressBurger}
       >
-        <FaBars />
       </IconBurgerContainer>
       <UserContainer>
         <InlineText>Hello,</InlineText>
