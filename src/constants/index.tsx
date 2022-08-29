@@ -1,4 +1,7 @@
 import React from "react";
+import {TiHome} from 'react-icons/ti'
+import {RiCalendar2Fill} from 'react-icons/ri'
+import {FaUserCircle} from 'react-icons/fa'
 
 export const TOTAL_USER = 30;
 export const USER_PER_PAGE = 5;
@@ -8,17 +11,17 @@ export const NAVIGATION_MENU = [
   {
       title: 'Beranda',
       path: '#',
-      icon: undefined,
+      icon: <TiHome />,
   },
   {
       title: 'Driver Management',
       path: '/driver-management',
-      icon: undefined,
+      icon: <FaUserCircle />,
       isRoot: true,
   },
   {
       title: 'Pickup',
       path: '#',
-      icon: undefined
+      icon: <RiCalendar2Fill />
   },
 ]

@@ -1,2 +1,2 @@
-export declare const NavigationContainer: import("@dmd/types").Component<import("./src/components/NavigationContainer/NavigationContainer.component.types").Props>;
+import NavigationContainer from './src/components/NavigationContainer';
 export default NavigationContainer;
