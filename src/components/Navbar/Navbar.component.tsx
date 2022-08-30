@@ -1,6 +1,6 @@
 import React from "react";
 import { ReactElement } from "react";
-import {FaBars} from 'react-icons/fa'
+import {FaBars} from '@react-icons/all-files/fa/FaBars'
 
 import { Component } from "@dmd/types";
 import { USER_AVATAR_URL } from "../../constants";
